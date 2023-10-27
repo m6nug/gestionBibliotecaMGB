@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Button fx:id="btnSalirApp" layoutX="1225.0" layoutY="680.0" mnemonicParsing="false" onAction="#cerrarApp" text="Salir" wrapText="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblSubtitulo" alignment="CENTER" layoutX="518.0" layoutY="62.0" prefHeight="18.0" prefWidth="244.0" text="Bienvenid@!">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="232.0" fitWidth="337.0" layoutX="472.0" layoutY="-54.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/logoBiblio.png" />
+         </image>
+      </ImageView>
+      <Line endX="-100.0" endY="447.4000244140625" layoutX="740.0" layoutY="225.0" startX="-100.0" startY="-118.99999237060547" />
+      <TextField fx:id="buscadorLibros" layoutX="157.0" layoutY="122.0" prefHeight="26.0" prefWidth="375.0" />
+      <Button fx:id="btnBuscarLibro" layoutX="532.0" layoutY="122.0" mnemonicParsing="false" onAction="#buscarLibro" prefHeight="26.0" prefWidth="30.0" text="🔍" />
+      <Label alignment="CENTER" layoutX="213.0" layoutY="96.0" prefHeight="18.0" prefWidth="264.0" text="Buscador de Libros">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <ListView fx:id="listaMostrarLibros" layoutX="157.0" layoutY="160.0" prefHeight="432.0" prefWidth="375.0" />
+      <Button fx:id="btnAnyadirLibro" layoutX="532.0" layoutY="160.0" mnemonicParsing="false" onAction="#anyadirLibro" prefHeight="26.0" prefWidth="30.0" text="+">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="939.0" layoutY="97.0" text="Préstamos">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField layoutX="779.0" layoutY="122.0" prefHeight="26.0" prefWidth="375.0" />
+      <Button fx:id="btnRealizarPrestamo" layoutX="779.0" layoutY="160.0" mnemonicParsing="false" onAction="#realizarPrestamo" text="Realizar préstamo">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnRealizarDevolucion" layoutX="1027.0" layoutY="160.0" mnemonicParsing="false" onAction="#realizarDevolucion" text="Realizar devolución">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ListView fx:id="listaMostrarPrestamos" layoutX="779.0" layoutY="200.0" prefHeight="392.0" prefWidth="375.0" />
+   </children>
+</AnchorPane>

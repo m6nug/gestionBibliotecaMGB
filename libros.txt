@@ -1,0 +1,5 @@
+El viento, Manuel, 1234
+El fuego, Yi, 5678
+El agua, Laura, 9101
+La tierra, Jaime, 1314
+La luna, Alvaro, 1516
