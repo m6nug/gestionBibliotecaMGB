@@ -36,7 +36,9 @@ Cierre de la Aplicación: La aplicación permite a los usuarios cerrarla de mane
 
 ## Requisitos
 Java Development Kit (JDK)
+
 JavaFX configurado en el entorno de desarrollo (En este caso Eclipse)
+
 Bibliotecas de JavaFX
 
 ## Notas Adicionales
