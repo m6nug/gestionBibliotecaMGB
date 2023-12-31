@@ -1,7 +1,7 @@
-# Documentación del Proyecto: Gestión de una Biblioteca (Biblioteca MGB)
+# Documentación del Proyecto: Gestión de una Biblioteca
 
 ## Descripción del Proyecto
-El proyecto "Biblioteca MGB" es una aplicación de gestión de biblioteca desarrollada en Java con JavaFX. La aplicación permite a los usuarios realizar diversas acciones relacionadas con la biblioteca, como buscar libros, agregar nuevos libros a la biblioteca o registrar préstamos y devoluciones.
+El proyecto "Biblioteca MGB" es una aplicación de gestión de biblioteca desarrollada en Java con una interfaz gráfica en JavaFX. La aplicación permite a los usuarios realizar diversas acciones relacionadas con el uso de una biblioteca, como buscar libros, agregar nuevos libros a la biblioteca o registrar préstamos y devoluciones.
 
 ## Estructura del Proyecto
 El proyecto está organizado en un solo paquete llamado "application" dentro de "src". La estructura del proyecto es la siguiente:
@@ -37,7 +37,7 @@ Cierre de la Aplicación: La aplicación permite a los usuarios cerrarla de mane
 ## Requisitos
 Java Development Kit (JDK)
 
-JavaFX configurado en el entorno de desarrollo (En este caso Eclipse)
+JavaFX configurado en el entorno de desarrollo utilizado (En este caso Eclipse)
 
 Bibliotecas de JavaFX
 
